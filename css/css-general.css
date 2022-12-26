@@ -1,6 +1,8 @@
 html, * {
     user-select: none;
   }
+  html, body { overflow-x: hidden; }
+
   @font-face {
       font-family: Fortnite;
       src: url('{{asset('/fonts/fortnite.otf')}}');
